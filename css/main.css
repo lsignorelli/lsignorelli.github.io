@@ -12,9 +12,18 @@
 
 html {
     color: #222;
-    font-size: 1em;
+    font-size: 14 px;
     line-height: 1.4;
+    font-family: Oxygen, sans-serif;
+    color: #ffffff;
+    background-color: #0d0d0d;
 }
+
+main {
+  //margin-left: 10%;
+}
+
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -95,11 +104,40 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+significant-text{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
 
+p{
 
+}
 
+subtext{
+  font-size: 0.8rem;
+  opacity: 0.4;
+}
 
+a{
+  color:inherit;
+  text-decoration: inherit;
+}
 
+#ref{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 1rem !important;
+}
+
+#ref img{
+  width: 36px;
+  height: 36px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  opacity: 0.8;
+  float: left;
+}
 
 
 
