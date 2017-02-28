@@ -104,9 +104,17 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-significant-text{
-  font-size: 1.5rem;
-  font-weight: 600;
+#products {
+  border-width: thin;
+  border-color: #ffffff;
+  width: 33%;
+  float: left;
+}
+
+#products img {
+  display: block;
+  margin: auto;
+  width: 50%;
 }
 
 p{
