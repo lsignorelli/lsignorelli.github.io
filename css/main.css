@@ -104,17 +104,38 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#prod_hold {
+  width: 100%;
+}
+
 #products {
-  border-width: thin;
-  border-color: #ffffff;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
   width: 33%;
-  float: left;
+  padding: 0.5rem;
 }
 
 #products img {
   display: block;
   margin: auto;
   width: 50%;
+}
+
+.left {
+  float: left;
+  width: 33%;
+}
+
+.right {
+  float: right;
+  width: 33%;
+}
+
+.center {
+  margin: 0 auto;
+  width: 33%;
 }
 
 p{
@@ -126,10 +147,12 @@ subtext{
   opacity: 0.4;
 }
 
-a{
+
+#Intro a{
   color:inherit;
   text-decoration: inherit;
 }
+
 
 #ref{
   position: absolute;
