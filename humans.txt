@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Luca Signorelli -- Self -- @lsignorelli
 
 # THANKS
 
-    <name>
+    Luca Signorelli
 
 # TECHNOLOGY COLOPHON
 
