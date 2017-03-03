@@ -102,32 +102,27 @@ textarea {
 
 #products {
   box-sizing: border-box;
-  border-width: 1px;
-  border-style: solid;
-  border-color: white;
+
   width: 33%;
-  padding: 0.5rem;
+  padding: 1rem;
+  display: table-cell;
+  height: 100%;
+}
+
+
+#products.notlast{
+  border-width: 0 1px 0 0;
+  border-style: dashed;
+  border-color: white;
 }
 
 #products img {
   display: block;
-  margin: auto;
-  width: 50%;
-}
-
-.left {
-  float: left;
-  width: 33%;
-}
-
-.right {
-  float: right;
-  width: 33%;
-}
-
-.center {
-  margin: 0 auto;
-  width: 33%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  height: 100px;
 }
 
 #projects{
@@ -151,7 +146,7 @@ subtext{
 #ref{
   position: fixed;
   bottom: 0;
-  left: 0;
+  right: 0;
   margin: 1rem !important;
   padding: 0rem 1rem 1rem 0rem;
   z-index: 999;
