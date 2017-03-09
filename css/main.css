@@ -94,6 +94,46 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+b {
+  font-size: 18px;
+  color: #e6e6e6;
+}
+
+b:hover	{
+	color: #f00;
+	background-color: #e9e9e2;
+	text-indent: 0; /* added the default value */
+}
+
+/*HOVER POPUP LINKS*/
+
+#popup b span {
+	display: none;
+}
+
+#popup b:hover {
+	background-color: #e9e9e2;
+}
+
+/* the IE correction rule */
+
+#popup b:hover span {
+	display: inline-block;
+	position: absolute;
+	top: 140px;
+	left: 130px;
+	margin: 0px;
+	padding: 10px;
+	color: #335500;
+	font-weight: normal;
+	background: #e5e5e5;
+	text-align: left;
+	border: 1px solid #666;
+  z-index: 100;
+}
+
+/** REFERRAL CODES **/
+
 #prod_hold {
   width: 100%;
   display: table;
@@ -104,7 +144,7 @@ textarea {
   box-sizing: border-box;
 
   width: 33%;
-  padding: 1rem;
+  padding: 0rem 1rem 1rem 1rem;
   display: table-cell;
   height: 100%;
 }
@@ -161,14 +201,6 @@ subtext{
   opacity: 0.8;
   float: left;
 }
-
-
-
-
-
-
-
-
 
 
 
